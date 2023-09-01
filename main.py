@@ -49,8 +49,19 @@ directory_tree = {
 
 
 def find_file(name, directory):
-    # Your code goes here
-    pass
+    # Base Case: Wenn die Datei im aktuellen Verzeichnis gefunden wird
+    if directory['type'] == 'file' and directory['name'] == name:
+        return directory['path']
+
+    # Wenn das Verzeichnis Kinder hat, durchlaufe sie
+    if directory['type'] == 'directory' and 'children' in directory:
+        for child in directory['children']:
+            path = find_file(name, child)  # Rekursiver Aufruf
+            if path:  # Wenn der Pfad gefunden wurde, gebe ihn zurück
+                return path
+
+    return None  # Wenn die Datei nicht gefunden wird
+
 
 if __name__ == '__main__':
     path = find_file('config.yaml', directory_tree)
