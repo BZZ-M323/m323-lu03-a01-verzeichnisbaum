@@ -1,0 +1,26 @@
+[
+  {
+    "name": "test_find_file_found_at_root",
+    "function": "test_find_file_found_at_root",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_find_file_found_in_subdir",
+    "function": "test_find_file_found_in_subdir",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_find_file_not_found",
+    "function": "test_find_file_not_found",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_find_file_nested_subdir",
+    "function": "test_find_file_nested_subdir",
+    "timeout": 10,
+    "points": 1
+  }
+]
