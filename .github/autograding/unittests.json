@@ -6,8 +6,8 @@
     "points": 1
   },
   {
-    "name": "test_find_file_found_in_subdir",
-    "function": "test_find_file_found_in_subdir",
+    "name": "test_find_file_found_in_deep_nested_subdir",
+    "function": "test_find_file_found_in_deep_nested_subdir",
     "timeout": 10,
     "points": 1
   },
@@ -18,8 +18,8 @@
     "points": 1
   },
   {
-    "name": "test_find_file_nested_subdir",
-    "function": "test_find_file_nested_subdir",
+    "name": "test_find_file_found_in_multiple_nested_subdirs",
+    "function": "test_find_file_found_in_multiple_nested_subdirs",
     "timeout": 10,
     "points": 1
   }
